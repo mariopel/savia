@@ -1,0 +1,16 @@
+# Dependencias de Node
+node_modules/
+
+# Variables de Entorno y Secretos SSI (¡CRÍTICO PARA SAVIA!)
+.env
+.env.local
+*.pem
+*.key
+
+# Archivos de caché, logs y Sistema Operativo
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.docker/
