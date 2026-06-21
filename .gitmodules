@@ -1,0 +1,3 @@
+[submodule "core-dcc/verifier-plus"]
+	path = core-dcc/verifier-plus
+	url = https://github.com/digitalcredentials/verifier-plus.git
