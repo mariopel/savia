@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:id.unr.edu.ar",
+  "verificationMethod": [
+    {
+      "id": "did:web:id.unr.edu.ar#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:id.unr.edu.ar",
+      <!--"publicKeyMultibase": "z6MkjEZUJgkK7xQbRxC6RRGpN2CZJ2dXG9zGYaZsGb83qq7z"-->
+      "publicKeyMultibase": "z6MkfmcbRScjJta77pqBGc7VgaNPxQnYcXzn2LgE3TwZfyzg"     
+    }
+  ],
+  "assertionMethod": [
+    "did:web:id.unr.edu.ar#key-1"
+  ],
+  "authentication": [
+    "did:web:id.unr.edu.ar#key-1"
+  ]
+}
+
+<!--
+======================================================
+🏛️  NUEVAS CLAVES CRIPTOGRÁFICAS GENERADAS PARA UNR
+======================================================
+🔒 TENANT_SEED (Privado, va en el archivo de configuración):
+z2ggzjfcxUaEqUWWCirBpwcWaFqC6S3nLxhQmQ77W7Jc2
+
+🌎 DEFAULT_ISSUER_DID (Público, Identificador de la UNR):
+did:key:z6MkfmcbRScjJta77pqBGc7VgaNPxQnYcXzn2LgE3TwZfyzg
+======================================================
+-->
+
+
+

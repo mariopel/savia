@@ -1,0 +1,27 @@
+
+COMPOSE_PROJECT_NAME=savia
+
+# =================================================================
+# UNR - PROYECTO SAVIA | CONFIGURACION MAESTRA v1.3.4-PROD
+# =================================================================
+DOMINIO_IDENTIDAD=id.unr.edu.ar
+DOMINIO_GESTION=gecer.unr.edu.ar
+DOMINIO_NACIONAL=nacional.unr.edu.ar
+
+# Hash bcrypt para el acceso al Dashboard
+TRAEFIK_AUTH=admin:$$2y$$05$$pA.k/fM.Hn9XmG8Y7z6Q1.O3w4v5u6t7s8r9q0p1o2n3m4l5k6j7i
+
+MONGO_ROOT_USER=root
+MONGO_ROOT_PASS=Clave01mpUNR
+MONGO_DB_NAME=savia_unr_db
+
+SMTP_HOST=smtp.unr.edu.ar
+SMTP_PORT=587
+SMTP_USER=mario.pellegrini@unr.edu.ar
+SMTP_PASS=Clave01mpUNR
+EMAIL_FROM=mario.pellegrini@unr.edu.ar
+
+NODE_ENV=production
+PAYLOAD_SECRET=UNR_Savia_2026_Secure_Key
+SEED_UNR=z3u2aZBwbkXzofiuoknAGRaVzCaZ6LLyhN8TdmzhoyhUVkbd
+SEED_FCEIA=z3u2SXu1EHfJHeTgBYBodqUxZznTp7RBufcKB6c8XcV2tjRX

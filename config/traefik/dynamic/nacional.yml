@@ -1,0 +1,14 @@
+# =================================================================
+# RUTEO DINAMICO: ORGANISMO OFICIAL v1.3.4-PROD
+# =================================================================
+http:
+  routers:
+    router-nacional:
+      rule: "Host(`nacional.unr.edu.ar`)"
+      service: service-nacional
+      tls: { certResolver: letsencrypt }
+
+  services:
+    service-nacional:
+      loadBalancer:
+        servers: [{ url: "http://nacional:80" }]

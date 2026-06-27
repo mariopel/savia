@@ -1,0 +1,41 @@
+nro,referencia,id_temporizador,fecha,fase,id_chat,tecnologia,estado,nombre_archivo
+1,doc-01,260617T2336,2026-06-17,auditoria_troubleshooting,savia,open badges_v3_lcw,pendiente_de_implementación,savia_doc-01_open badges_v3_lcw.md
+2,doc-02,260618T0052,2026-06-18,auditoria_arquitectura,savia,traefik v3_docker_compose,pendiente_de_implementación,savia_doc-02_traefik v3_docker_compose.md
+3,doc-03,260618T0142,2026-06-18,auditoria_concepto,savia,lcw_vdr,validado_por_el_usuario,savia_doc-03_lcw_vdr.md
+4,cod-01,260618T0142,2026-06-18,configuracion,savia,traefik_v3,validado_por_el_usuario,savia_cod-01_traefik_v3.md
+5,cod-02,260618T0142,2026-06-18,configuracion,savia,docker_compose,validado_por_el_usuario,savia_cod-02_docker_compose.md
+6,doc-04,260618T0207,2026-06-18,arquitectura_api,savia,payload_cms_rest,pendiente_de_implementación,savia_doc-04_payload_cms_rest.md
+7,doc-05,260618T0213,2026-06-18,arquitectura_api,savia,integración_siu,pendiente_de_implementación,savia_doc-05_integración_siu.md
+8,doc-06,260618T0217,2026-06-18,arquitectura_api,savia,desacoplamiento_push,pendiente_de_implementación,savia_doc-06_desacoplamiento_push.md
+9,doc-07,260618T0226,2026-06-18,arquitectura_capacitación,savia,api_rest_push,validado_por_el_usuario,savia_doc-07_api_rest_push.md
+10,doc-08,260618T0235,2026-06-18,arquitectura_capacitación,savia,github_antigravity,sugerencia_arquitectónica,savia_doc-08_github_antigravity.md
+11,doc-09,260618T0240,2026-06-18,arquitectura_herramientas,savia,github_mcp,sugerencia_arquitectónica,savia_doc-09_github_mcp.md
+12,doc-10,260618T0245,2026-06-18,arquitectura_repositorio,savia,github_docs as code,pendiente_de_implementación,savia_doc-10_github_docs as code.md
+13,doc-11,260618T0253,2026-06-18,arquitectura_entorno,savia,win11_wsl2,sugerencia_arquitectónica,savia_doc-11_win11_wsl2.md
+14,doc-12,260618T0301,2026-06-18,arquitectura_flujos,savia,context_isolation,validado_por_el_usuario,savia_doc-12_context_isolation.md
+15,doc-13,260618T0306,2026-06-18,gestión_consolidación,savia,google_sheets_csv,validado_por_el_usuario,savia_doc-13_google_sheets_csv.md
+16,doc-14,260618T2157,2026-06-18,arquitectura_flujos,savia,gitops_topology,sugerencia_arquitectónica,savia_doc-14_gitops_topology.md
+17,doc-15,260618T2215,2026-06-18,arquitectura_diseño,savia,gitops_workflow,pendiente_de_implementación,savia_doc-15_gitops_workflow.md
+18,doc-16,260618T2256,2026-06-18,arquitectura_entorno,savia,stack_local_definido,validado_por_el_usuario,savia_doc-16_stack_local_definido.md
+19,doc-17,260618T2309,2026-06-18,arquitectura_flujos,savia,transición_mcp,validado_por_el_usuario,savia_doc-17_transición_mcp.md
+20,doc-18,260618T2314,2026-06-18,arquitectura_entorno,savia,wsl2_file_system,validado_por_el_usuario,savia_doc-18_wsl2_file_system.md
+21,doc-19,260618T2321,2026-06-18,arquitectura_seguridad,savia,secrets_management,validado_por_el_usuario,savia_doc-19_secrets_management.md
+22,doc-20,260619T0023,2026-06-19,arquitectura_repositorio,savia,markdown,validado_por_el_usuario,savia_doc-20_markdown.md
+23,doc-21,260621T2208,2026-06-21,arquitectura_flujos,savia,context_re-integration,validado_por_el_usuario,savia_doc-21_context_re-integration.md
+24,doc-22,260621T2225,2026-06-21,arquitectura_entorno,savia,antigravity_ide,validado_por_el_usuario,savia_doc-22_antigravity_ide.md
+25,doc-23,260625T2040,2026-06-25,fase_4_seguridad,savia,gitops_gitignore,pendiente_de_implementación,savia_doc-23_gitops_gitignore.md
+26,doc-24,260625T2045,2026-06-25,fase_4,savia,code_review,validado_por_el_usuario,savia_doc-24_code_review.md
+27,doc-25,260625T2055,2026-06-25,fase 4_seguridad,savia,code_review,validado_por_el_usuario,savia_doc-25_code_review.md
+28,cod-03,260625T2055,2026-06-25,fase 4/seguridad,savia,gitignore,validado_por_el_usuario,savia_cod-03_gitignore.md
+29,doc-26,260625T2105,2026-06-25,fase_4_gestión,savia,estandar_unificado,validado_por_el_usuario,savia_doc-26_estandar_unificado.md
+30,doc-27,260625T2148,2026-06-25,fase_4,savia,auditoría_criptográfica,pendiente_de_implementación,savia_doc-27_auditoría_criptográfica.md
+31,doc-28,260625T2159,2026-06-25,fase_4,savia,docker_compose_payload,validado_por_el_usuario,savia_doc-28_docker_compose_payload.md
+32,doc-29,260625T2235,2026-06-25,fase_4_gestión,savia,sincronización_gitops,pendiente_de_implementación,savia_doc-29_sincronización_gitops.md
+33,doc-30,260625T2241,2026-06-25,fase_4_gestión,savia,git_cli,pendiente_de_implementación,savia_doc-30_git_cli.md
+34,doc-31,260625T2249,2026-06-25,fase_4_gestión,savia,antigravity_ide,validado_por_el_usuario,savia_doc-31_antigravity_ide.md
+35,doc-32,260626T0725,2026-06-26,fase_4_gestión,savia,bash_ext4,pendiente_de_implementación,savia_doc-32_saneamiento-archivos-wsl.md
+36,cod-07,260626T0725,2026-06-26,fase_4_gestión,savia,bash_ext4,pendiente_de_implementación,savia_cod-07_saneamiento-archivos-wsl.sh.md
+37,doc-33,260626T0738,2026-06-26,fase_4_gestión,savia,bash_posix,pendiente_de_implementación,savia_doc-33_estandarizacion-posix.md
+38,cod-08,260626T0738,2026-06-26,fase_4_gestión,savia,bash_posix,pendiente_de_implementación,savia_cod-08_script-normalizacion.sh.md
+39,doc-34,260626T0749,2026-06-26,fase_4_gestión,savia,git_gitignore,pendiente_de_implementación,savia_doc-34_actualizacion-escudo-ofimatica.md
+40,cod-09,260626T0749,2026-06-26,fase_4_seguridad,savia,gitignore,pendiente_de_implementación,savia_cod-09_gitignore-actualizado.md

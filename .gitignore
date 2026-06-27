@@ -1,11 +1,20 @@
-# Dependencias de Node
+# Dependencias de Node y Build de Payload CMS
 node_modules/
+payload_build/
 
 # Variables de Entorno y Secretos SSI (¡CRÍTICO PARA SAVIA!)
 .env
-.env.local
+.env.*
 *.pem
 *.key
+
+# Claves específicas de la Arquitectura SAVIA (Traefik y MongoDB)
+acme.json
+acme/
+mongo_keyfile
+
+# Archivos ZIP de respaldo generados por CLI (Semillas Privadas de Emisores)
+*.zip
 
 # Archivos de caché, logs y Sistema Operativo
 logs/

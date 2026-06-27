@@ -1,0 +1,32 @@
+nro,referencia,id temporario,fecha,fase,id_chat,tecnologia,estado,nombre_archivo
+1,cod-01,260619T2244,19/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_ubuntu,aprobado,savia-infra_cod-01_wsl2_ubuntu.md
+1,doc-01,260620T2348,20/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_ubuntu_docker_node_ssh,validado por el usuario,savia-infra_doc-01_wsl2_ubuntu_docker_node_ssh.md
+2,cod-02,260619T2255,19/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_ubuntu,aprobado,savia-infra_cod-02_wsl2_ubuntu.md
+2,doc-02,260620T2353,20/06/2026,fase-2_integración_github,savia-infra,git_github_ssh,validado por el usuario,savia-infra_doc-02_git_github_ssh.md
+3,cod-03,260619T2258,19/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_git,aprobado,savia-infra_cod-03_wsl2_git.md
+3,doc-03,260621T0215,21/06/2026,fase-3_integración dcc,savia-infra,docker_compose_git_submodules_dcc,validado por el usuario,savia-infra_doc-03_docker_compose_git_submodules_dcc.md
+4,cod-04,260619T2303,19/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_nodejs,aprobado,savia-infra_cod-04_wsl2_nodejs.md
+4,doc-04,260622T1934,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_limpieza,validado por el usuario,savia-infra_doc-04_bash_limpieza.md
+5,cod-05,260619T2305,19/06/2026,fase-1_infraestructura_base,savia-infra,wsl2_docker,aprobado,savia-infra_cod-05_wsl2_docker.md
+5,doc-05,260622T2003,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,wsl interop_bash,validado por el usuario,savia-infra_doc-05_wsl interop_bash.md
+6,cod-06,260619T2322,19/06/2026,fase-1_infraestructura_base,savia-infra,vs_code_wsl,aprobado,savia-infra_cod-06_vs_code_wsl.md
+6,doc-06,260622T2100,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,wsl interop_shell,validado por el usuario,savia-infra_doc-06_wsl interop_shell.md
+7,cod-07,260620T1945,20/06/2026,fase-1_infraestructura_base,savia-infra,git_ssh,aprobado,savia-infra_cod-07_git_ssh.md
+7,doc-07,260622T2113,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,arquitectura híbrida_master,validado por el usuario,savia-infra_doc-07_arquitectura híbrida_master.md
+8,cod-08,260620T2245,20/06/2026,fase-2_integración_github,savia-infra,git,aprobado,savia-infra_cod-08_git.md
+8,doc-08,260622T2124,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,openvsx_antigravity,validado por el usuario,savia-infra_doc-08_openvsx_antigravity.md
+9,cod-09,260620T2258,20/06/2026,fase-2_integración_github,savia-infra,git_ssh,aprobado,savia-infra_cod-09_git_ssh.md
+9,doc-09,260625T1903,25/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,wsl interop_filesystem,validado por el usuario,savia-infra_doc-09_wsl interop_filesystem.md
+10,cod-10,260621T0035,21/06/2026,fase-3_integración dcc,savia-infra,git_submodules,aprobado,savia-infra_cod-10_git_submodules.md
+11,cod-11,260621T0055,21/06/2026,fase-3_integración dcc,savia-infra,docker_compose,aprobado,savia-infra_cod-11_docker_compose.md
+12,cod-12,260621T0120,21/06/2026,fase-3_integración dcc,savia-infra,configuración_env,aprobado,savia-infra_cod-12_configuración_env.md
+13,cod-13,260621T0155,21/06/2026,fase-3_integración dcc,savia-infra,docker_engine,aprobado,savia-infra_cod-13_docker_engine.md
+14,cod-14,260621T2237,21/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,antigravity_wsl,aprobado,savia-infra_cod-14_antigravity_wsl.md
+15,cod-15,260622T0233,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_alias,aprobado,savia-infra_cod-15_bash_alias.md
+16,cod-16,260622T1835,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_limpieza,aprobado,savia-infra_cod-16_bash_limpieza.md
+17,cod-17,260622T2003,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_limpieza,aprobado,savia-infra_cod-17_bash_limpieza.md
+18,cod-18,260622T2025,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_rutas absolutas,aprobado,savia-infra_cod-18_bash_rutas absolutas.md
+19,cod-19,260622T2030,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_inspección,aprobado,savia-infra_cod-19_bash_inspección.md
+20,cod-20,260622T2045,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_alias definitivo,aprobado,savia-infra_cod-20_bash_alias definitivo.md
+21,cod-21,260622T2100,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_alias definitivo,aprobado,savia-infra_cod-21_bash_alias definitivo.md
+22,cod-22,260622T2113,22/06/2026,fase-4_ide_identidad_criptográfica,savia-infra,bash_receta maestra,aprobado,savia-infra_cod-22_bash_receta maestra.md

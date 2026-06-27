@@ -1,0 +1,14 @@
+# =================================================================
+# RUTEO DINAMICO: IDENTIDAD SOBERANA v1.3.4-PROD
+# =================================================================
+http:
+  routers:
+    router-portal:
+      rule: "Host(`id.unr.edu.ar`)"
+      service: service-portal
+      tls: { certResolver: letsencrypt }
+
+  services:
+    service-portal:
+      loadBalancer:
+        servers: [{ url: "http://unr-portal:80" }]

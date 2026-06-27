@@ -1,0 +1,31 @@
+# =================================================================
+# TRAEFIK STATIC CONFIG v1.3.4-PROD
+# =================================================================
+api:
+  dashboard: true
+  insecure: false
+
+entryPoints:
+  web:
+    address: ":80"
+    http:
+      redirections:
+        entryPoint: { to: websecure, scheme: https }
+  websecure:
+    address: ":443"
+  traefik:
+    address: ":8080"
+
+providers:
+  docker: { exposedByDefault: false }
+  file:
+    #directory: /etc/traefik/dynamic
+    directory: ~/savia/config/traefik/dynamic
+    watch: true
+
+certificatesResolvers:
+  letsencrypt:
+    acme:
+      email: mariopel@gmail.com
+      storage: /etc/traefik/acme/acme.json
+      httpChallenge: { entryPoint: web }
